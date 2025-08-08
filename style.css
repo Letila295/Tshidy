@@ -1,0 +1,140 @@
+css
+ .grid{
+  display:grid;
+  grid-template-colomns:
+  reapeat(auto-fit, minmax(300px,1fr));
+   gap:2rem;
+   padding:2rem;
+}
+body{
+  font-family:  'Roboto',
+  sans-serif;
+ background-image:
+ url('sky.jpg');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no repeat;
+}
+h1, h2{
+  fond-family: 'playfair
+  display', serif;
+}
+
+header,fotter{
+  background:#green;
+  color:blue;
+  text-align:center;
+  padding:1em;
+}
+nav a{
+  position: relative;
+  padding:0.5em;
+  
+}
+nav a::after{
+  content:"";
+  position: absolute;
+  left:0;
+  bottom:0;
+  width: 0%;
+  height:2px;
+  background: yellow;
+  transition:width 0.3s ease;
+}
+nav a:hover::after{
+  width:100%;
+}
+#menu-toggle{
+  display:none;
+  background:#003366
+  color:white;
+  padding:0.5em;
+  border:none;
+}
+.grid img {
+  transiton: transform 0.4s 
+  ease;
+}
+.grid img:hover {
+  transform: scale(0.5s);
+  
+}
+.@media (max-width: 768px){
+  nav{
+    flex-direction: colomn;
+    text-align: center;align-items: 
+  }
+  .grid{
+    grid-template-columns:
+    1fr;
+  }
+  
+}
+body{
+  background: linear-gradient(rgba)(0,0,0,0,5),
+  rgba(0,0,0,0,5)), url('Lesotho.jpg') no-repeat
+ center center;
+ bsckground-size: cover;
+ color: $fff;
+}
+form{
+  background:#fff;
+  padding:2em;
+ border-radius:800px
+  box-shadow; 0 0 15px
+ rgba(0,0,0,0,1);
+}
+.contact-box {
+ background: rgba(255, 255, 0.9);
+ max-width: 400px;
+ margin: 30px auto;
+ padding: 20px;
+ border-radius: 10px;
+ box-shadow: 0 0 15px rgba( 0, 0, 0. 0.2);
+}
+.contact-box h2 {
+ text-align: center;
+ margin-bottom: 15px;
+ color: #000000;
+}
+form{
+ display: flex;
+ flex-direction: column;
+}
+
+input, textarea{
+ width;100%
+ padding; 0.8em;
+ margin: 0.5em 0;
+ border: 1px solid #ccc;
+ border-radius: 5px;align-self: 
+}
+button{
+  backkground:#003366;
+  color:white;
+  border:none;
+  padding:0.5em 1em;
+}
+button:hover{
+  background-color:#0055aa;
+ transform: scale(1.05);
+}
+
+}
+img{
+ border-radius: 8px;
+}
+button {
+  background-color: ######; /*
+  whiten*/
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px
+}
+Rounded button {
+  border-radius: 2px
+}
